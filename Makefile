@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall
 
-SRCS = a3.c stats_functions.c
+SRCS = main.c stats_functions.c
 OBJS = $(SRCS:.c=.o)
-EXEC = main
+EXEC = a3
 
 all:    $(EXEC)
 
