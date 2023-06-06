@@ -3,7 +3,7 @@ CFLAGS = -Wall
 
 SRCS = a3.c stats_functions.c
 OBJS = $(SRCS:.c=.o)
-EXEC = a3
+EXEC = main
 
 all:    $(EXEC)
 
